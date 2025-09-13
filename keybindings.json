@@ -1,0 +1,92 @@
+[
+    {
+        "key": "cmd+i",
+        "command": "composerMode.agent"
+    },
+    {
+        "key": "ctrl+shift+q",
+        "command": "workbench.action.terminal.toggleTerminal",
+        "when": "terminal.active"
+    },
+    {
+        "key": "ctrl+`",
+        "command": "-workbench.action.terminal.toggleTerminal",
+        "when": "terminal.active"
+    },
+    {
+        "key": "ctrl+p",
+        "command": "workbench.action.quickOpen"
+    },
+    {
+        "key": "cmd+p",
+        "command": "-workbench.action.quickOpen"
+    },
+    {
+        "key": "ctrl+shift+p",
+        "command": "workbench.action.showCommands"
+    },
+    {
+        "key": "shift+cmd+p",
+        "command": "-workbench.action.showCommands"
+    },
+    {
+        "key": "f2",
+        "command": "renameFile",
+        "when": "filesExplorerFocus && foldersViewVisible && !explorerResourceIsRoot && !explorerResourceReadonly && !inputFocus"
+    },
+    {
+        "key": "enter",
+        "command": "-renameFile",
+        "when": "filesExplorerFocus && foldersViewVisible && !explorerResourceIsRoot && !explorerResourceReadonly && !inputFocus"
+    },
+    {
+        "key": "ctrl+l",
+        "command": "aichat.newchataction"
+    },
+    {
+        "key": "cmd+l",
+        "command": "-aichat.newchataction"
+    },
+    {
+        "key": "ctrl+shift+l",
+        "command": "aichat.insertselectionintochat"
+    },
+    {
+        "key": "shift+cmd+l",
+        "command": "-aichat.insertselectionintochat"
+    },
+    {
+        "key": "ctrl+l",
+        "command": "composer.sendToAgent",
+        "when": "editorHasPromptBar && editorPromptBarFocused"
+    },
+    {
+        "key": "cmd+l",
+        "command": "-composer.sendToAgent",
+        "when": "editorHasPromptBar && editorPromptBarFocused"
+    },
+    {
+        "key": "ctrl+i",
+        "command": "composer.startComposerPrompt",
+        "when": "cursor.appLayout != 'agent'"
+    },
+    {
+        "key": "cmd+i",
+        "command": "-composer.startComposerPrompt",
+        "when": "cursor.appLayout != 'agent'"
+    },
+    {
+        "key": "ctrl+shift+i",
+        "command": "composer.newAgentChat"
+    },
+    {
+        "key": "shift+cmd+i",
+        "command": "-composer.newAgentChat"
+    },
+    {
+        "key": "cmd+c",
+        "command": "workbench.action.terminal.sendSequence",
+        "args": { "text": "\u0003" },
+        "when": "terminalFocus"
+    }
+]
